@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Luis Andre Jimenez Castillo</title>
 
 <!-- Styles de Bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -20,7 +20,7 @@
     <header>
       <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand" href="#">Books</a>
+            <a class="navbar-brand" href="#"><img src="../assets/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -64,7 +64,7 @@
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores nemo sit magnam repudiandae aliquid placeat? Reprehenderit hic odit impedit totam.
                 </p>
-                <button class="btn btn-light px-5 py-2">By now for $5.99</button>
+                <button class="btn btn-light px-5 py-3 primary-btn">By now for $5.99</button>
             </div>
             <div class="col-md-5 sol-sm-12">
               <img src="../assets/header-img.png" alt="Books">
@@ -149,8 +149,11 @@
             </p>
             <div class="pricing">
               <h1>$77.99</h1>
-              <a href="#" class="btn btn-dark px-5 py-2 mb-5">Purchase Now</a>
+              <button type="button" class="btn button primary-button text-uppercase">
+                Purchase Now
+              </button>               
             </div>
+            
           </div>
         </div>
 
@@ -165,7 +168,9 @@
             </p>
             <div class="pricing">
               <h1>$99.99</h1>
-              <a href="#" class="btn btn-dark px-5 py-2 mb-5">Purchase Now</a>
+              <button type="button" class="btn button primary-button text-uppercase">
+                Purchase Now
+              </button>
             </div>
           </div>
         </div>
@@ -181,7 +186,10 @@
             </p>
             <div class="pricing">
               <h1>$58.99</h1>
-              <a href="#" class="btn btn-dark px-5 py-2 mb-5">Purchase Now</a>
+              <button type="button" class="btn button primary-button text-uppercase">
+                Purchase Now
+              </button>
+              
             </div>
           </div>
         </div>
@@ -206,9 +214,9 @@
     <div class="col-md-6 col-sm-12 text-right">
       <div class="desktop shadow-lg">
         <div class="d-flex flex-row justify-content-center">
-          <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+          <a href=""><i class="fa fa-desktop fa-3x py-2 pr-3"></i></a>
           <div class="text text-left">
-            <h3 class="pt-1 m-0">Desktop</h3>
+            <a href="#"><h3 class="pt-1 m-0">Desktop</h3></a>
             <p class="p-0 m-0">On Website</p>
           </div>
         </div>
@@ -217,9 +225,9 @@
     <div class="col-md-6 col-sm-12 text-left">
       <div class="desktop shadow-lg">
         <div class="d-flex flex-row justify-content-center">
-          <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+          <a href=""><i class="fa fa-mobile-alt fa-3x py-2 pr-3"></i></a>
           <div class="text text-left">
-            <h3 class="pt-1 m-0">On Mobile</h3>
+            <a href="#"><h3 class="pt-1 m-0">On Mobile</h3></a>
             <p class="p-0 m-0">On Play Store</p>
           </div>
         </div>
@@ -240,7 +248,7 @@
               <!-- Card 1 -->
          <div class="card mr-2 d-inline-block shadow-lg">
            <div class="card-img-top">
-             <img src="../assets/UI-face-3.jpg" alt="Member" class="img-fluid">
+             <img src="../assets/UI-face-3.jpg" alt="Member" class="img-fluid border-radius p-4">
            </div>
            <div class="card-body">
              <h3 class="card-title">Blalock Jolene</h3>
@@ -255,12 +263,12 @@
      <div class="col-md-4 col-12">
        <!--Carousel Started -->
        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active text-center">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
               <!-- Card 2 -->
               <div class="card mr-2 d-inline-block shadow-lg">
                 <div class="card-img-top">
-                  <img src="../assets/UI-face-1.jpg" alt="Member" class="img-fluid">
+                  <img src="../assets/UI-face-1.jpg" alt="Member" class="img-fluid rounded-circle w-50 p-4">
                 </div>
                 <div class="card-body">
                   <h3 class="card-title">Allen Agnes</h3>
@@ -272,11 +280,11 @@
                 </div>
               </div>
           </div>
-          <div class="carousel-item text-center">
+          <div class="carousel-item">
             <!-- Card 3 -->
             <div class="card mr-2 d-inline-block shadow-lg">
               <div class="card-img-top">
-                <img src="../assets/UI-face-2.jpg" alt="Member" class="img-fluid">
+                <img src="../assets/UI-face-2.jpg" alt="Member" class="img-fluid rounded-circle w-50 p-4">
               </div>
               <div class="card-body">
                 <h3 class="card-title">Amiel Barbara</h3>
@@ -296,7 +304,7 @@
        <!-- Card 4 -->
        <div class="card mr-2 d-inline-block shadow-lg">
         <div class="card-img-top">
-          <img src="../assets/UI-face-4.jpg" alt="Member" class="img-fluid">
+          <img src="../assets/UI-face-4.jpg" alt="Member" class="img-fluid border-radius p-4">
         </div>
         <div class="card-body">
           <h3 class="card-title">Olivia Louis</h3>
@@ -316,14 +324,16 @@
     <footer>
 <div class="container-fluid p-0">
   <div class="row text-left">
-    <div class="col-md-5 col-md-5">
+    <div class="col-md-5 col-sm-5">
       <h1 class="text-light">About Us</h1>
       <p class="text-muted">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore mollitia maxime amet a, fugit odio!
       </p>
       <p class="pt-4 text-muted">
         Copyright ©2020 All rights reserved | This template is made with by
-        <span>Luis Jimenez</span>
+      </p>
+      <p class="text-muted">
+        <span class="text-uppercase">Luis Jimenez</span>
       </p>
     </div>
     <div class="col-md-5 col-sm-12">
@@ -369,5 +379,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+<!-- File js -->
+<script src="../js/main.js"></script>
 </body>
 </html>
